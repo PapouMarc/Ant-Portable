@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+ <project name="testant" default="testant" basedir=".">
+ 	
+    <!--  all properties are in build.properties --> 
+    <property name="libcontrib" value="lib/ant-contrib"/>
+
+    <!-- load the svn task -->
+    <taskdef resource="net/sf/antcontrib/antlib.xml" classpath="${libcontrib}/ant-contrib-1.0b3.jar" />
+
+ 	
+ 	<target name="testant">
+ 	    
+ 		<!-- part of module -->
+ 		<for param="name" list="je,test,une,boucle,ant" >
+ 			<sequential>
+ 				<echo>@{name}</echo>
+ 				
+ 			</sequential>
+ 		</for>
+    </target>
+
+ </project>
