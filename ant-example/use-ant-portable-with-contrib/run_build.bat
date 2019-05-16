@@ -3,11 +3,6 @@ rem on recupere le disque sur lequel on travail c: D: etc...
 set "LETTER_DIR=%~d0"
 
 setlocal EnableDelayedExpansion
-set path
-set $line=%path%
-set $line=%$line: =#%
-set $line=%$line:;= %
-set $line=%$line:)=^^)%
 
 rem indiquer le repertoire dans lequel vous avez mis votre ant
 set "ANT_HOME=%LETTER_DIR%\yourdirectory\ant-1.10.6"
