@@ -1,2 +1,0 @@
-telecharger ant à l'adresse, sinon prendre le zip dans le projet:
-http://apache.mediamirrors.org//ant/binaries/apache-ant-1.10.6-bin.zip

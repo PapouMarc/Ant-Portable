@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+ <project name="testant" default="testant" basedir=".">
+
+ 	<target name="testant">
+		<echo>on test le xslt</echo>
+    <xslt in="${basedir}/exemple.xml"
+          out="${basedir}/exemple.html"
+          style="${basedir}/exemple.xsl"
+          failOnError="false">
+    </xslt>
+  </target>
+
+ </project>
