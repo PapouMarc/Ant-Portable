@@ -8,5 +8,5 @@ Dezipper l'archive sur le même disque que celui du repertoire ___ant-example___
 
 ## Repertoires
 
-Chaque répertoire à son readme et son lanceur windows (fichier en extension .bat)
+Chaque répertoire a son readme et son lanceur windows (fichier en extension .bat)
 Il est nécessaire d'éditer ce lanceur afin de lui indiquer le chemin physique du repertoire dans lequel se trouve l'installation du ant précédemment faite.
